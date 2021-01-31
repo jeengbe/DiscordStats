@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "inlineSourceMap": false,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "strict": true,
+    "noImplicitReturns": true,
+    "lib": ["ES2020"]
+  },
+  "include": [
+    "./src/index.ts"
+  ]
+}
